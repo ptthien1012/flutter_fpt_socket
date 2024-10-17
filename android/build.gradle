@@ -61,7 +61,7 @@ android {
 }
 
 dependencies {
-    implementation group: 'io.github.sac', name: 'SocketclusterClientJava', version: '1.7.4'
+    implementation files('libs/SocketclusterClientJava-1.7.4.jar') 
 }
 
 //apply from: "/Users/phuongnampdx/Documents/flutter/packages/flutter_tools/gradle/flutter.gradle"
