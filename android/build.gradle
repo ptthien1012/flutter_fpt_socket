@@ -61,10 +61,7 @@ android {
 }
 
 dependencies {
-    implementation('io.github.sac:SocketclusterClientJava:1.7.4') {
-        exclude group: 'org.json', module: 'json'
-    }
-
+    implementation group: 'io.github.sac', name: 'SocketclusterClientJava', version: '1.7.4'
 }
 
 //apply from: "/Users/phuongnampdx/Documents/flutter/packages/flutter_tools/gradle/flutter.gradle"
