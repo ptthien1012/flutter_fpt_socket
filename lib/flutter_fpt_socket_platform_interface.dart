@@ -28,18 +28,20 @@ abstract class FlutterFptSocketPlatform extends PlatformInterface {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
 
-  Future<dynamic> connectChatbot(String token, String botCode, String senderId, String senderName, String chatBotAttributes, bool reconnect) {
+  Future<dynamic> connectChatbot(String token, String botCode, String senderId,
+      String senderName, String chatBotAttributes, bool reconnect) {
     throw UnimplementedError('connectChatbot has not been implemented.');
   }
 
   void sendMessageChatbot(String jsonString) {
     throw UnimplementedError('sendMessageChatbot has not been implemented.');
   }
-  void disConnectChatbot() {
-        throw UnimplementedError('disConnectChatbot has not been implemented.');
 
+  void disConnectChatbot() {
+    throw UnimplementedError('disConnectChatbot has not been implemented.');
   }
+
   MethodChannel getReceivedMessageChannel() {
-        throw UnimplementedError('sendMessageChatbot has not been implemented.');
+    throw UnimplementedError('sendMessageChatbot has not been implemented.');
   }
 }
