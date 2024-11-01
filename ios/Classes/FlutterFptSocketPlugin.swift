@@ -126,7 +126,7 @@ public class ChatBot {
     var sendMessageChannel: FlutterMethodChannel
     var disConnectChatbotChannel: FlutterMethodChannel
     
-    init(client: ScClient = ScClient(url: "https://livechat.fpt.ai:443/ws/"), token: String = "", senderId: String = "", chanelBot: String = "", botCode: String = "", senderName: String = "", chatBotAttributes: String = "", isConnectedChanel: Bool = false) {
+    init(client: ScClient = ScClient(url: "https://ftel-livechat.fpt.ai:443/ws/"), token: String = "", senderId: String = "", chanelBot: String = "", botCode: String = "", senderName: String = "", chatBotAttributes: String = "", isConnectedChanel: Bool = false) {
 //        var request = URLRequest(url: URL(string: "https://livechat.fpt.ai:443/ws/")!)
 //        request.setValue("true", forHTTPHeaderField: "autoReconnect")
         self.client = client

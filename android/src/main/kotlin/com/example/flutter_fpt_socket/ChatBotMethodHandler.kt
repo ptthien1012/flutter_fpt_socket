@@ -13,7 +13,7 @@ class ChatBotMethodHandler {
     private lateinit var socket: Socket
     fun handleOnConnectChatbot(chatBotUtility: ChatBotUtility, call: MethodCall) {
         chatBotUtility.isConnectedChanel = true
-        socket = Socket("https://livechat.fpt.ai:443/ws/")
+        socket = Socket("https://ftel-livechat.fpt.ai:443/ws/")
 
         socket.setListener(object : BasicListener {
             override fun onConnected(socket: Socket, headers: Map<String?, List<String?>?>?) {
