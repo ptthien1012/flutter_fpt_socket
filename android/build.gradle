@@ -40,7 +40,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace = "com.isc.flutter_fpt_socket"
     compileSdkVersion 33
     lintOptions {
         checkReleaseBuilds false
